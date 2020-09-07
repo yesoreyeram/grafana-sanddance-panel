@@ -1,0 +1,43 @@
+{
+  "name": "grafana-sanddance-panel",
+  "version": "0.0.1",
+  "description": "Grafana panel plugin to build viz using Sand dance.",
+  "main": "dist/module.js",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesoreyeram/grafana-sanddance-panel.git"
+  },
+  "keywords": [
+    "grafana",
+    "sanddance",
+    "sand dance"
+  ],
+  "author": "Sriramajeyam Sugumaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yesoreyeram/grafana-sanddance-panel/issues"
+  },
+  "homepage": "https://github.com/yesoreyeram/grafana-sanddance-panel#readme",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "@deck.gl/core": "^8.1.5",
+    "@deck.gl/layers": "^8.1.5",
+    "@msrvida/sanddance-react": "^3",
+    "@luma.gl/core": "^8.1.2",
+    "vega": "^5.11"
+  },
+  "devDependencies": {
+    "@grafana/data": "7.0.1",
+    "@grafana/runtime": "7.0.1",
+    "@grafana/toolkit": "7.01",
+    "@grafana/ui": "7.0.1",
+    "@types/grafana": "github:CorpGlory/types-grafana.git",
+    "@types/lodash": "^4.14.149"
+  }
+}

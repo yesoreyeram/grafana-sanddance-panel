@@ -1,0 +1,35 @@
+{
+  "name": "Sand Dance",
+  "id": "yesoreyeram-sanddance-panel",
+  "type": "panel",
+  "info": {
+    "version": "%VERSION%",
+    "updated": "%TODAY%",
+    "description": "Grafana Sanddance Panel",
+    "author": {
+      "name": "Sriramajeyam Sugumaran",
+      "url": "https://www.google.com/search?q=Sriramajeyam+Sugumaran"
+    },
+    "logos": {
+      "small": "img/yesoreyeram-grafana-sanddance-panel-logo.jpg",
+      "large": "img/yesoreyeram-grafana-sanddance-panel-logo.jpg"
+    },
+    "keywords": [
+      "grafana",
+      "scraping"
+    ],
+    "screenshots": [],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/yesoreyeram/grafana-sanddance-panel"
+      }
+    ]
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  },
+  "includes": [],
+  "routes": []
+}
